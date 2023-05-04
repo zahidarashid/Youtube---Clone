@@ -1,0 +1,52 @@
+.videos{
+    display: flex;
+    width: 75%;
+    flex-wrap: wrap;
+    position: relative;
+    top: 65px;
+    justify-content: space-between;
+
+}
+.video_lists{
+    margin: 25px 25px 25px 2px;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.video_lists:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.video_lists img{
+    border-radius: 10px;
+    width: 344px;
+    height: 194px;
+
+}
+.video_lists p{
+    margin: 0;
+    font-size: 20px;
+}
+.video_lists .title{
+    font-size: 16px;
+    width: 300px;
+    padding-right: 45px;
+    font-family: "Roboto","Arial",sans-serif;
+
+    
+}
+.details1{
+    display: inline;
+    margin-right: 100px;
+}
+.p{
+    display: inline;
+    margin-left: 70px;
+    border: none;
+}
+.btn{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}

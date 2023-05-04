@@ -1,0 +1,90 @@
+.navbar{
+    display:flex;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    position: sticky;
+    margin: 0px 0px 10px 0px;
+    background-color:#fff;
+    height: 80px;
+    width: 100vw;
+    position: fixed;
+    z-index: 999;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+.logo1{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    margin-left: 20px;
+}
+.searchBox{
+    display: flex;
+    align-items: center;
+}
+.searchBar{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    width: 580px;
+    height: 40px;
+    border-radius: 20px;
+
+}
+
+.searchBar input{
+    height: 38px;
+    padding-left: 20px;
+    font-size: 16px;
+    /* margin-right: 20px; */
+    width: 520px;
+    border: none;
+    border-right: 1px solid #ccc;
+    border-radius: 20px 0 0 20px;
+}
+
+.searchBar input:focus{
+    outline: 1px solid rgb(80, 80, 233);
+    z-index: 2;
+}
+.searchBar img{
+    /* position: relative;
+    top: 5px; */
+    width: 20px;
+}
+.searchBar button{
+    width: 60px;
+    height: 38px;
+    border: none;
+    /* border-right: 1px solid #ccc; */
+    /* border-bottom: 1px solid #ccc; */
+    /* border-top: 1px solid #ccc; */
+    border-radius: 0 20px 20px 0;
+    background-color: #fffbfb;
+}
+.searchBar button:hover{
+    background-color: #e9e6e6;
+    cursor: pointer;
+}
+
+.micIcon{
+    margin-left: 15px;
+}
+.profile img{
+    margin-left: 20px;
+}
+.add-video{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 120px;
+    padding-left: 90px;
+}

@@ -1,0 +1,35 @@
+.categories{
+    position: fixed;
+    background-color: #fff;
+    /* margin: 10px; */
+    z-index: 998;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+}
+.categories_links ul{
+    padding: 0;
+
+}
+.categories_links li{
+    display: inline-block;
+    margin: 5px 5px 5px 0px;
+}
+.categories_links a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    background-color:rgba(128, 128, 128, 0.164);
+    padding: 8px 15px;
+    border-radius: 10px;
+    /* border: 1px solid black; */
+    /* outline: none; */
+
+}
+.categories_links a:hover{
+    background-color: rgba(128, 128, 128, 0.705);
+}
